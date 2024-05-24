@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100% - 65px);
+}
+
+h2{
+  margin-bottom: 50px;
+}
+
+mat-card {
+  width: 500px;
+  padding: 60px 40px;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+mat-spinner {
+  margin: auto;
+}

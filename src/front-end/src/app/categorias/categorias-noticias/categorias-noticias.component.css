@@ -1,0 +1,22 @@
+
+.container {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    max-width: 1320px;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+  }
+  
+  .recomendaciones-list {
+    display: flex;
+      flex-wrap: wrap;
+      gap: 20px; 
+      padding: 10px;
+      align-items: center;
+      justify-content: center;
+  }
+  

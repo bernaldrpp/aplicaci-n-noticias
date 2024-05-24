@@ -1,0 +1,16 @@
+<app-header/>
+<div class="container">
+  <mat-card>
+    <h2>Iniciar sesion</h2>
+    <mat-spinner *ngIf="isLoading"></mat-spinner>
+    <form (submit)="onLogin()" [formGroup]="applyForm" *ngIf="!isLoading">
+      <mat-form-field>
+        <input matInput name="usuario" type="text" placeholder="Usuario" formControlName="usuario" required>
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput name="password" type="password" placeholder="Password" formControlName="pass" required>
+      </mat-form-field>
+      <button mat-raised-button color="accent" type="submit" *ngIf="!isLoading">Login</button>
+    </form>
+  </mat-card>
+</div>

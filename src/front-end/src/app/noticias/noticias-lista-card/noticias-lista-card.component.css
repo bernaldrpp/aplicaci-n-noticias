@@ -1,0 +1,22 @@
+.noticia-card {
+  background-color: white;
+  width: 400px !important;
+  height: 550px !important;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+mat-card-header {
+  padding: 15px 20px;
+  height: 65px !important;
+}
+
+mat-card-actions {
+  margin-top: auto;
+  justify-content: flex-end;
+}
+
+mat-card-actions a{
+  margin: 10px;
+}

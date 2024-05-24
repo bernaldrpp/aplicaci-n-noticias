@@ -1,0 +1,9 @@
+
+<app-header/>
+
+<div class="container">
+    <a mat-icon-button href="/categorias"><mat-icon>arrow_back</mat-icon></a>
+    <article class="recomendaciones-list">
+        <app-noticias-lista-card *ngFor="let noticia of noticias;" [noticia]="noticia"></app-noticias-lista-card>
+    </article>
+</div>

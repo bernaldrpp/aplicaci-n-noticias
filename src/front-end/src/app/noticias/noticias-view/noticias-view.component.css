@@ -1,0 +1,54 @@
+
+.container {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  max-width: 1320px;
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+}
+
+.recomendaciones-list {
+  display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+  font-size: 25pt;
+  padding: 10px;
+  text-align: center;
+}
+
+.details-panel {
+    display: flex;
+    padding: 10px;
+    gap: 50px;
+    flex-direction: column;
+  }
+  
+  .main-img {
+    border-radius: 10px;
+    width: 500px;
+    align-self: center;
+  }
+  .main-text {
+    font-size: 34pt;
+    margin-bottom: 20px;
+  }
+  .emphasize {
+    font-weight: bold;
+  }
+
+  .contenidoNoticia{
+    font-size: 13pt;
+  }
+  h2 {
+
+  }

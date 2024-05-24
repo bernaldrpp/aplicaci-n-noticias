@@ -1,0 +1,9 @@
+<app-header/>
+<section class="hero-section">
+    <h2 class="hero-text">
+      Todas las noticias
+    </h2>
+  </section>
+  <article class="noticia-list">
+    <app-noticias-lista-card *ngFor="let noticia of noticiasService.noticias;" [noticia]="noticia"></app-noticias-lista-card>
+  </article>

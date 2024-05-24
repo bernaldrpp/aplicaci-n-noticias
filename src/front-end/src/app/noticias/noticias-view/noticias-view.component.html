@@ -1,0 +1,21 @@
+
+<app-header/>
+
+<div class="container">
+    <a mat-icon-button href="/"><mat-icon>arrow_back</mat-icon></a>
+<article class="details-panel" *ngIf="(noticia) as noticia">
+    <img class="main-img" src="{{noticia.imagen}}" alt="{{noticia.titular}}">
+    <article>
+        <h2 class="main-text">{{noticia.titular}}</h2>
+        <h4>Fecha de publicacion: <span class="emphasize">{{noticia.fecha_publicacion}}</span></h4>
+        <p class="contenidoNoticia">{{noticia.contenido}}</p>
+    </article>
+</article>
+<h2 class="hero-text">
+    Recomendaciones
+</h2>
+<article class="recomendaciones-list">
+    <app-noticias-lista-card *ngFor="let recomendada of recomendadas;" [noticia]="recomendada"></app-noticias-lista-card>
+</article>
+
+</div>

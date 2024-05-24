@@ -1,0 +1,14 @@
+.noticia-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-text {
+    font-size: 25pt;
+    padding: 10px;
+    text-align: center;
+  }

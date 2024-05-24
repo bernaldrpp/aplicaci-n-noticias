@@ -1,0 +1,13 @@
+<app-header/>
+
+<div class="container">
+    <section class="hero-section">
+        <h2 class="hero-text">
+          Todas las categorias
+        </h2>
+      </section>
+      <article class="categoria-list">
+        <app-categorias-lista-button *ngFor="let categoria of categoriasService.categorias;" [categoria]="categoria"></app-categorias-lista-button>
+      </article>
+</div>
+
